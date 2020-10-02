@@ -7,15 +7,17 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/roll_btn"
+        android:id="@+id/rollBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:fontFamily="casual"
+        android:onClick="onRollClick"
         android:text="@string/roll"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <SeekBar
         android:id="@+id/barMax"
@@ -27,7 +29,7 @@
         android:clickable="false"
         android:max="50"
         android:progress="0"
-        app:layout_constraintBottom_toTopOf="@+id/roll_btn"
+        app:layout_constraintBottom_toTopOf="@+id/rollBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
