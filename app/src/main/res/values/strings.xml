@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Randomizer</string>
+
+    <string name="max_val">Max = 0</string>
+    <string name="rolled_val">0</string>
+    <string name="roll">ROLL</string>
+</resources>
